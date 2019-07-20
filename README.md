@@ -1,28 +1,14 @@
-[![](https://jitpack.io/v/netcosports/Android_Ntlm.svg)](https://jitpack.io/#netcosports/Android_Ntlm)
+# ntlm4okhttp
 
-# Android_Ntlm
 NT LAN Manager (NTLM) implementation for Okhttp
 
-**Min SDK:** 15
+**Min JDK:** 8
 
-## Installation
+## Announcement
 
-TapTargetView is distributed using [jitpack.io](https://jitpack.io/).
+This project is modified from [Android_Ntlm](https://github.com/netcosports/Android_Ntlm), Thanks for Netco Sports.
 
-```groovy
-   allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-   
-   dependencies {
-	        implementation 'com.github.netcosports:Android_Ntlm:1.0'
-	}
-```
-
-### Simple usage
+## Simple usage
 
 ```java
 OkHttpClient client = new OkHttpClient.Builder()
